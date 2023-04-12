@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ColorChangingComponent from './App';
+import ChangeInputValue from './components/Changeinput';
+import ToUpperCase from './components/Example4';
+import FormData from './components/NameFirstname';
+import ClickCounter from './components/Clickcounter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ColorChangingComponent />
+    <ChangeInputValue/>
+    <ToUpperCase/>
+    <FormData/>
+    <ClickCounter/>
   </React.StrictMode>
 );
 
